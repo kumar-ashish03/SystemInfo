@@ -1,11 +1,11 @@
 [Unit]
-Description= System Info Daemon
+Description= System Info1 Daemon
 After= iarmbusd.service
 Requires=iarmbusd.service
 
 [Service]
 EnvironmentFile=/etc/device.properties
-ExecStart=/usr/bin/systeminfo
+ExecStart=/usr/bin/systeminfo1
 ExecStop=/bin/kill -15 $MAINPID
 Restart=always
 
