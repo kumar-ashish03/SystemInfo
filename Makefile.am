@@ -1,6 +1,6 @@
 #AUTOMAKE_OPTIONS = foreign
 AUTOMAKE_OPTIONS = subdir-objects
-# Ram need to check if separate include directory is needed or not
+# Need to check if separate include directory is needed
 AM_CXXFLAGS = $(GLIB_CFLAGS) $(GTHREAD_CFLAGS) $(NLMONITOR_CFLAGS) $(NL_CFLAGS)
 
 AM_CXXFLAGS += $(IARM_CFLAGS)
@@ -13,7 +13,7 @@ AM_CFLAGS =  $(GLIB_CFLAGS) $(GTHREAD_CFLAGS)
 AM_CPPFLAGS =  $(GLIB_CFLAGS) $(GTHREAD_CFLAGS)
 
 # the list of header files that belong to the library (to be installed later)
-include_HEADERS = systemInfoIarm.h
+include_HEADERS = systeminfo1Iarm.h
 
-bin_PROGRAMS = systeminfo
-systeminfo_SOURCES = systemInfoMain.cpp
+bin_PROGRAMS = systeminfo1
+systeminfo1_SOURCES = systeminfo1Main.cpp
