@@ -1,5 +1,5 @@
-#ifndef _SYSTEMINFOIARM_H_
-#define _SYSTEMINFOIARM_H_
+#ifndef _SYSTEMINFO1IARM_H_
+#define _SYSTEMINFO1IARM_H_
 
 #include <stdio.h>
 #include <sys/types.h>
