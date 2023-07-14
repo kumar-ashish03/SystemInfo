@@ -24,14 +24,15 @@ extern "C" {
 #include "irMgr.h"
 #include "comcastIrKeyCodes.h"
 #include "libIARM.h"
+#include "libIBus.h"
 #endif
 
 /**
- * @addtogroup SYSTEMINFO_TYPES
+ * @addtogroup SYSTEMINFO1_TYPES
  * @{
  */
-#define IARM_BUS_SYS_INFO_NAME "SYSTEM_INFO"
+#define IARM_BUS_SYS_INFO1_NAME "SYSTEM_INFO1"
 
-#define IARM_BUS_SYSTEMINFO_API_isAvailable "isSystemInfoAvailable"
+#define IARM_BUS_SYSTEMINFO1_API_isAvailable "issysteminfo1Available"
 
 #endif /* _SYSTEMINFOIARM_H_ */
