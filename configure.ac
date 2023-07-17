@@ -2,11 +2,11 @@
 # Process this file with autoconf to produce a configure script.
 
 #AC_PREREQ([2.69])
-AC_INIT(si-generic, 1.0, ramkumar_nekkalapudi@yahoo.com)
+AC_INIT(si-generic, 1.0, kumar.ashish03@infosys.com)
 AC_CONFIG_SRCDIR([si])
 
 AM_INIT_AUTOMAKE([foreign no-dist-gzip dist-bzip2 1.9])
-AC_CONFIG_SRCDIR([systemInfoMain.cpp])
+AC_CONFIG_SRCDIR([systeminfo1Main.cpp])
 
 LT_INIT
 AC_LANG([C++])
